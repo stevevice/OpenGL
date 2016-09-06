@@ -54,13 +54,21 @@ int main()
 		//Code starts here
 		vec4 yellow = vec4(255, 255, 0, .5); //Red, green, blue, transparency
 		vec4 blue = vec4(0, 0, 255, .8);
-		//mat4 sunrot = glm::rotate( 0, glm::vec3(0, 1, 0));	//Rotate Sun
-		mat4 Sun = mat4(1); //* sunrot;
-		Gizmos::addSphere(vec3(Sun[0]), 1, 50, 50, yellow, &Sun);
-		Gizmos::addSphere(vec3(Sun[1]), 1, 50, 50, blue, &Sun);
+		vec4 white = vec4(255, 255, 255, 1);
+
+		//Rotate Sun
+		mat4 Sun = mat4(1);
+		mat4 EarthTrans = glm::translate(mat4(Sun), vec3(0, 0, 6));
+		mat4 Earth = mat4(1) * EarthTrans;
+		vec3 SunPos = vec3(0, 0, 0);
+		vec3 EarthPos = SunPos + vec3(6, 0, 0);
+		vec3 MoonPos = EarthPos - vec3(1.75, 0, 0);
+
+		Gizmos::addSphere(SunPos, 3, 50, 50, yellow, &Sun); //Sun
+		Gizmos::addSphere(EarthPos, 1, 50, 50, blue, &Sun); // Earth
+		Gizmos::addSphere(MoonPos, .35, 50, 50, white, &Sun); // Moon
 
 		//code end here
-		vec4 white(1);
 		vec4 black(0, 0, 0, 1);
 
 		for (int i = 0; i < 21; ++i)

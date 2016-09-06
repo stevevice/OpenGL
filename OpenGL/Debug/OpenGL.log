@@ -1,3 +1,4 @@
 ﻿  Source.cpp
+c:\users\steve.vice\desktop\opengl\opengl\source.cpp(69): warning C4305: 'argument': truncation from 'double' to 'float'
   OpenGL.vcxproj -> C:\Users\steve.vice\Desktop\OpenGL\Debug\OpenGL.exe
   OpenGL.vcxproj -> C:\Users\steve.vice\Desktop\OpenGL\Debug\OpenGL.pdb (Partial PDB)
