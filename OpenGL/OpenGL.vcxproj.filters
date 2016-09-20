@@ -15,13 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="dep\AIEUtilities\Gizmos.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="dep\AIEUtilities\gl_core_4_4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SolarSystemApplication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,4 +1,6 @@
-﻿  Source.cpp
-c:\users\steve.vice\desktop\opengl\opengl\source.cpp(69): warning C4305: 'argument': truncation from 'double' to 'float'
+﻿  SolarSystemApplication.cpp
+c:\users\steve.vice\desktop\opengl\opengl\solarsystemapplication.cpp(59): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\steve.vice\desktop\opengl\opengl\solarsystemapplication.cpp(68): warning C4305: 'argument': truncation from 'double' to 'float'
+cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
   OpenGL.vcxproj -> C:\Users\steve.vice\Desktop\OpenGL\Debug\OpenGL.exe
   OpenGL.vcxproj -> C:\Users\steve.vice\Desktop\OpenGL\Debug\OpenGL.pdb (Partial PDB)
