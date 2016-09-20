@@ -118,11 +118,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="dep\AIEUtilities\Gizmos.cpp" />
     <ClCompile Include="dep\AIEUtilities\gl_core_4_4.c" />
     <ClCompile Include="SolarSystemApplication.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="dep\AIEUtilities\Gizmos.h" />
     <ClInclude Include="dep\AIEUtilities\gl_core_4_4.h" />
   </ItemGroup>
